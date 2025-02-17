@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(202, 202, 202);
+    margin: 0 0 0 0;
+}
+
+header {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+#MagCont{
+    margin: 10px 10px 10px 10px;
+    padding-left: 10px;
+    background-color: rgb(243, 255, 131);
+    border: solid 2px coral;
+    border-radius: 10px;
+}
+
+#CartCont{
+    margin: 10px 10px 10px 10px;
+    padding-left: 10px;
+    background-color: rgb(0, 218, 116);
+    border: solid 2px coral;
+    border-radius: 10px;
+}
+
+#SoldCont{
+    margin: 10px 10px 10px 10px;
+    padding-left: 10px;
+    background-color: rgb(49, 214, 255);
+    border: solid 2px coral;
+    border-radius: 10px;
+}
+
+#MagGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+}
+
+#MagCartGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+}
+.MagCartItem{
+    margin: 20px;
+    padding: 0 0 10px 10px;
+    background-color: rgb(120, 255, 181);
+    border: solid 2px coral;
+    border-radius: 10px;
+}
+
+.MagItem{
+    margin: 20px;
+    padding: 0 0 10px 10px;
+    background-color: rgb(238, 229, 177);
+    border: solid 2px coral;
+    border-radius: 10px;
+}
